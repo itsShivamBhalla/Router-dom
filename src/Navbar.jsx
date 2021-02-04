@@ -16,6 +16,8 @@ const Navbar=()=>{
         <NavLink exact activeClassName="active_class" to='/contact'>Contact  </NavLink>
         <br/>
         <NavLink exact activeClassName="active_class" to='/service'>Service </NavLink>
+        <br/>
+        <NavLink exact activeClassName="active_class" to='/user'>User </NavLink>
         </div>
         
         

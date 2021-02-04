@@ -6,6 +6,7 @@ import Error from './Error';
 import Navbar from './Navbar';
 import Service from './Service';
 import Home from './Home';
+import User from './User';
 
 
 const App =()=>
@@ -28,7 +29,8 @@ return(
           <Contact  name='Contactt' />
        }/>  
        <Route exact path='/service' component={Service}/>  
-       <Route path='/contact/name' component={Name}/>  
+       <Route path='/contact/name' component={Name}/> 
+       <Route exact path='/user/:fname/:lname' component={User}/> 
        <Route component={Error}/>
     </Switch>
 
