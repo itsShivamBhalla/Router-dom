@@ -29,3 +29,26 @@ a.active_class
    display: flex;
    justify-content: space-around;
 }
+
+.searchbar
+{
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.searchbar input 
+{
+  margin: 30px 0;
+  padding: 5px 10px;
+  outline: none;
+  border-radius: 5px;
+  font-family: source-code-pro,Menlo, Monaco,Consolas, "Courier New";
+}
+
+img
+{
+  max-height: 400px;
+  max-width: 220px;
+}

@@ -7,7 +7,7 @@ import Navbar from './Navbar';
 import Service from './Service';
 import Home from './Home';
 import User from './User';
-
+import Search from './Search';
 
 const App =()=>
 {
@@ -31,6 +31,7 @@ return(
        <Route exact path='/service' component={Service}/>  
        <Route path='/contact/name' component={Name}/> 
        <Route exact path='/user/:fname/:lname' component={User}/> 
+       <Route exact path='/search' component={Search}/> 
        <Route component={Error}/>
     </Switch>
 
