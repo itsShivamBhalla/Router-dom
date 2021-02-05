@@ -17,7 +17,7 @@ const Navbar=()=>{
         <br/>
         <NavLink exact activeClassName="active_class" to='/service'>Service </NavLink>
         <br/>
-        <NavLink exact activeClassName="active_class" to='/user'>User </NavLink>
+        <NavLink exact activeClassName="active_class" to='/user/shivam/bhalla'>User </NavLink>
         </div>
         
         
