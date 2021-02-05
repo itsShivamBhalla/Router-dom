@@ -19,7 +19,8 @@ const Navbar=()=>{
         <br/>
         <NavLink exact activeClassName="active_class" to='/user/shivam/bhalla'>User </NavLink>
         <br/>
-        <NavLink exact activeClassName="active_class" to='/search  '>Search </NavLink>
+        <NavLink exact activeClassName="active_class" to='/search'>Search </NavLink>
+       
         </div>
         
         
