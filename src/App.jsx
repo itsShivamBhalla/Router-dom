@@ -1,5 +1,5 @@
 import React from 'react';
-import {Route,Switch} from 'react-router-dom';
+import {Route,Switch,Redirect} from 'react-router-dom';
 import About from './About';
 import Contact from './Contact';
 import Error from './Error';
@@ -32,7 +32,8 @@ return(
        <Route path='/contact/name' component={Name}/> 
        <Route exact path='/user/:fname/:lname' component={User}/> 
        <Route exact path='/search' component={Search}/> 
-       <Route component={Error}/>
+       {/* <Route component={Error}/> */}
+       <Redirect to="/"/>
     </Switch>
 
     </>
@@ -41,3 +42,4 @@ return(
 
 export default App;
 // if we want to only pass call component then component attribute is prefered but in case if you want to pass props to it's component then render attribute is prefered. Although there isn't any difference bw the performance 
+//redirect can be used to redirect unknown path to any specific path
